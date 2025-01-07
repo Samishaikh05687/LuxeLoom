@@ -3,9 +3,7 @@ const mongoose = require("mongoose")
 
 const ownerSchema=mongoose.Schema({
     fullname: {
-        typr:String,
-        minlength:3,
-        trim:true,  
+        typr:String,    
     },
     email: String,
     password:String,
