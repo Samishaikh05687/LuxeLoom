@@ -15,6 +15,7 @@ router.post("/create", async (req, res) => {
     password,
   });
   res.status(201).send(createOwner);
+  
 });
 router.get("/", (req, res) => {
   res.send("Hello World");
